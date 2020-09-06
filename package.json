@@ -30,7 +30,7 @@
     "atom": "*",
     "node": "*"
   },
-  "homepage": "http://atom.github.io/language-kofuscript",
+  "homepage": "http://atom.io/packages/language-kofuscript",
   "license": "MIT",
   "name": "language-kofuscript",
   "repository": {
