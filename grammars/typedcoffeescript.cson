@@ -1,5 +1,5 @@
 'scopeName': 'source.kofu'
-'name': 'TypedCoffeeScript'
+'name': 'KofuScript'
 'fileTypes': [
   'tcoffee'
   'typed.coffee',
