@@ -6,7 +6,7 @@
   'kofu'
 ]
 'firstLineMatch': '^#!.*\\bcoffee'
-'foldingStartMarker': '^\\s*class\\s+\\S.*$|.*(->|=>)\\s*$|.*[\\[{]\\s*$'
+'foldingStartMarker': '^\\s*blueprint\\s+\\S.*$|.*(->|=>)\\s*$|.*[\\[{]\\s*$'
 'foldingStopMarker': '^\\s*$|^\\s*[}\\]]\\s*$'
 'patterns': [
   {
@@ -30,6 +30,19 @@
       '7':
         'name': 'entity.name.type.instance.coffee'
     'match': '(new)\\s+(((class)(\\s+(\\w+(?:\\.\\w*)*))?)|(\\w+(?:\\.\\w*)*))'
+    'name': 'meta.class.instance.constructor'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'keyword.operator.new.coffee'
+      '4':
+        'name': 'storage.type.class.coffee'
+      '6':
+        'name': 'entity.name.type.instance.coffee'
+      '7':
+        'name': 'entity.name.type.instance.coffee'
+    'match': '(new)\\s+(((blueprint)(\\s+(\\w+(?:\\.\\w*)*))?)|(\\w+(?:\\.\\w*)*))'
     'name': 'meta.class.instance.constructor'
   }
   {
@@ -263,12 +276,36 @@
       '1':
         'name': 'storage.type.class.coffee'
       '2':
+        'name': 'keyword.control.inheritance.coffee'
+      '3':
+        'name': 'entity.other.inherited-class.coffee'
+    'match': '(?<=\\s|^|\\[|\\()(blueprint)\\s+(iheritsFrom)\\s+(@?[a-zA-Z\\$\\._][\\w\\.]*)'
+    'name': 'meta.class.coffee'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'storage.type.class.coffee'
+      '2':
         'name': 'entity.name.type.class.coffee'
       '3':
         'name': 'keyword.control.inheritance.coffee'
       '4':
         'name': 'entity.other.inherited-class.coffee'
     'match': '(?<=\\s|^|\\[|\\()(class\\b)\\s+(@?[a-zA-Z\\$_][\\w\\.]*)?(?:\\s+(extends)\\s+(@?[a-zA-Z\\$\\._][\\w\\.]*))?'
+    'name': 'meta.class.coffee'
+  }
+  {
+    'captures':
+      '1':
+        'name': 'storage.type.class.coffee'
+      '2':
+        'name': 'entity.name.type.class.coffee'
+      '3':
+        'name': 'keyword.control.inheritance.coffee'
+      '4':
+        'name': 'entity.other.inherited-class.coffee'
+    'match': '(?<=\\s|^|\\[|\\()(blueprint\\b)\\s+(@?[a-zA-Z\\$_][\\w\\.]*)?(?:\\s+(inheritsFrom)\\s+(@?[a-zA-Z\\$\\._][\\w\\.]*))?'
     'name': 'meta.class.coffee'
   }
   {

@@ -8,6 +8,9 @@
   'Class':
     'prefix': 'cla'
     'body': 'class ${1:ClassName}${2: extends ${3:Ancestor}}\n\n  ${4:constructor: (${5:args}) ->\n    ${6:# body...}}\n  $7'
+  'Blueprint':
+    'prefix': 'blu'
+    'body': 'blueprint ${1:ClassName}${2: inheritsFrom ${3:Ancestor}}\n\n  ${4:constructor: (${5:args}) ->\n    ${6:# body...}}\n  $7'
   'Else if':
     'prefix': 'elif'
     'body': 'else if ${1:condition}\n  ${0:# body...}'
