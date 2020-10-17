@@ -1,9 +1,8 @@
-'scopeName': 'source.kofu'
-'name': 'KofuScript'
+'scopeName': 'source.mamba'
+'name': 'MambaScript'
 'fileTypes': [
-  'tcoffee'
-  'typed.coffee',
   'kofu'
+  'mamba'
 ]
 'firstLineMatch': '^#!.*\\bcoffee'
 'foldingStartMarker': '^\\s*blueprint\\s+\\S.*$|.*(->|=>)\\s*$|.*[\\[{]\\s*$'
@@ -450,7 +449,7 @@
           '0':
             'name': 'punctuation.section.embedded.coffee'
         'end': '\\}'
-        'name': 'source.kofu.embedded.source'
+        'name': 'source.mamba.embedded.source'
         'patterns': [
           {
             'include': '$self'

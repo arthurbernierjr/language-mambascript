@@ -1,12 +1,12 @@
-'comment': 'KofuScript (Literate)'
+'comment': 'MambaScript (Literate)'
 'fileTypes': [
-  'litkofu'
-  'litkofu.erb'
-  'kofu.md'
+  'litmamba'
+  'litmamba.erb'
+  'mamba.md'
 ]
 'foldingStartMarker': '(?x)\n\t\t(<(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)\\b.*?>\n\t\t|<!--(?!.*-->)\n\t\t|\\{\\s*($|\\?>\\s*$|//|/\\*(.*\\*/\\s*$|(?!.*?\\*/)))\n\t\t)'
 'foldingStopMarker': '(?x)\n\t\t(</(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)>\n\t\t|^\\s*-->\n\t\t|(^|\\s)\\}\n\t\t)'
-'name': 'KofuScript (Literate)'
+'name': 'MambaScript (Literate)'
 'patterns': [
   {
     'begin': '(?x)^\n\t\t\t\t(?=\t([ ]{4}|\\t)(?!$))'
@@ -260,7 +260,7 @@
   'coffee_script':
     'patterns': [
       {
-        'include': 'source.kofu'
+        'include': 'source.mamba'
       }
     ]
   'escape':
