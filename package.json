@@ -8,9 +8,6 @@
   },
   "license": "MIT",
   "name": "language-mambascript",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/arthurbernierjr/language-mambascript.git"
-  },
+  "repository": "https://github.com/arthurbernierjr/language-mambascript.git",
   "version": "0.0.0"
 }
