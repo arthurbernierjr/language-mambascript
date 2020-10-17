@@ -1,25 +1,4 @@
 {
-  "_from": "https://www.atom.io/api/packages/language-mambascript/versions/1.0.0/tarball",
-  "_id": "language-mambascript@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-XxDujngZv0Jn+EFHnRcQMDlnLz5fGwNcdodg+RQy7EGLJyUbFonenX/BGZXJMpEWZz0jW/N7XmQscJMB6e8CbA==",
-  "_location": "/language-mambascript",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "remote",
-    "raw": "https://www.atom.io/api/packages/language-mambascript/versions/1.0.0/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/language-mambascript/versions/1.0.0/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/language-mambascript/versions/1.0.0/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/language-mambascript/versions/1.0.0/tarball"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://www.atom.io/api/packages/language-mambascript/versions/1.0.0/tarball",
-  "_shasum": "6a99fbb1f48296379005f36813020c76274e391b",
-  "_spec": "https://www.atom.io/api/packages/language-mambascript/versions/1.0.0/tarball",
-  "_where": "/private/var/folders/pg/m036jh590qx3m75589g9kvh80000gn/T/apm-install-dir-2020724-53524-17b95tc.otjsj",
   "bugs": {
     "url": "https://github.com/arthurbernierjr/language-mambascript/issues"
   },
